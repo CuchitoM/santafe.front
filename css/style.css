@@ -1,0 +1,348 @@
+body {
+    margin: 0px;
+    padding: px;
+    background-color:black; 
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    background-image: url(../img/madera.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-position: center;
+    font-family: 'Offside', cursive;
+    color: beige;
+    font-size: larger;
+}
+
+header {
+    background-color: black;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+}
+.cabeza {
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+}
+
+.logo img {
+    display: inline-flex;
+    height: 80px;
+    width: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.texto {
+    font-family: 'Megrim', cursive;
+    color: rgb(147, 72, 201);
+    text-align: center;
+}
+
+.cabeza .redes-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.redes-1 {
+    display: inline-flex;
+    border-radius: 50%;
+}
+
+.redes-1 .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    margin: 0x 3px;
+}
+
+.redes-1 a {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    display: inline-block;
+    background-color: black;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-color: rgb(147, 72, 201);
+    border-radius: 50%;
+    color: beige;
+    box-shadow: o 10px 10px  beige;
+    text-align: center;
+    text-decoration: none;
+}
+.redes-1 a:hover {
+    color: beige;
+}
+
+.cabeza .redes-1 a i {
+    font-size: 25px;
+    line-height: 30px;
+}
+ 
+.redes-1 a .icon-fb {
+    position: absolute;
+    margin-top: -70px;
+}
+
+.redes-1 .icon-fb:hover {
+    background-color: rgb(8 , 81, 255);
+    color: white;    
+    border-color: rgb(8 , 81, 255);
+}
+
+.redes-1 a .icon-in {
+    position: absolute;
+    margin-top: -70px;
+    background-color: beige;
+}
+.redes-1 .icon-in:hover {    
+    background-color: rgb(255, 8, 201); 
+    color: beige;
+    border-color: rgb(255, 8, 201);
+}
+
+.redes-1 a .icon-ti {
+        position: absolute;
+        margin-top: -70px;
+        background-color: beige;
+}
+
+.redes-1 .icon-ti:hover {    
+        background-color: gray; 
+        color: beige;
+        border-color: gray;
+}
+
+.redes-1 a .icon-tw {
+    position: absolute;
+    margin-top: -70px;
+    background-color: beige;
+}
+
+.redes-1 .icon-tw:hover {    
+    background-color: rgb(8, 156, 255); 
+    color: beige;
+    border-color: rgb(8, 156, 255);
+}
+
+.menu {
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color:beige;
+    padding: 20px;
+    display: block;
+}
+
+.menu li a:hover {
+    background: rgb(147, 72, 201);
+}
+
+.beigeletra {
+    color: beige;
+    text-decoration: underline;
+}
+
+.alinear_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.alfajores {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}    
+.alfajores li a {
+    text-decoration: none;
+    color: rgb(189, 146, 219);
+    padding: 20px;
+    display: block;
+
+}
+.alfajores li {
+    display: inline-block;
+    text-align: center;
+}
+
+.alfajores li a:hover {
+    background-color: beige;
+}
+.parrafo {
+    color: baige;
+    background-color: black;
+    height: 200px;
+    padding: 30px;
+    text-align: center;
+}
+
+.contenedor {
+    flex-wrap: nowrap;
+    width: 500px;
+    padding: 0 50px;
+    float: right;
+}
+
+.ingred {
+    text-decoration: underline;
+}
+
+.iconfb {
+    width: 50px;
+    position:fixed;
+    bottom: 10px;
+    right: 15px; 
+}
+
+.pie-pagina {
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 50px 50px; 
+    font-family: 'Offside', cursive;
+    color: beige;
+}
+.contenedores {
+    align-content: center;
+    padding: 0px 0%;
+}
+
+.pie-pagina .contenedores {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    justify-content: center;
+}   
+ 
+.pie-pagina .box-mapa {
+    text-align: center;
+    justify-content: baseline;
+}
+
+.contenedores .box-redes {
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+margin: 0x 3px;
+text-align: center;
+}
+
+.box-redes {
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    border-radius: 50%;
+    text-align: center;
+}
+.box-redes a p {
+    text-align: center;
+}
+
+.box-redes a {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: beige;
+    margin-right: 8px;    
+    border-radius: 50%;
+}
+
+.fb {
+    background-color: rgb(8 , 81, 255);
+    
+}
+.fb:hover {
+    background-color: rgb(8 , 81, 255);
+    padding: 3px;
+    color: white;
+}
+
+.in {
+    background-color: rgb(255, 8, 201);
+
+}
+
+.in:hover {
+    background-color: rgb(255, 8, 201);    
+    padding: 3px;
+    color: white;
+}
+
+.ti {
+    background-color: gray;
+}
+
+.ti:hover {
+    background-color: gray;
+    padding: 3px;
+    color: white;
+}
+
+.tw {
+    background-color: rgb(8, 156, 255);
+}
+
+.tw:hover {
+    background-color: rgb(8, 156, 255);
+    padding: 3px;
+    color: white;
+}
+
+.box-mio {
+    text-align: center;
+    color: beige;
+}
+
+.box-mio p {
+    color: beige;
+    text-align: center;
+}
+
+.box-mio img {
+    display: inline-flex;
+    height: 108px;
+    width: auto;
+}    
+ .box p { 
+    text-align: center;
+}
+
+.box-mio img{
+    cursor: pointer;
+}
+
+.pie-pagina .box-mio img:hover {
+    transform: scale(1.3);
+}
+
+.caja-final {
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    text-align: center;
+    color: beige;
+    text-decoration: none;
+}
